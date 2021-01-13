@@ -1,4 +1,4 @@
-// maintains the state of each fish
+// maintains the state of each fish; Fish data is an array of objects. Each object represents a single fish.
 
 
 const fishCollection = [
@@ -53,6 +53,7 @@ const fishCollection = [
     }
 ]
 
+// exports useFish function; when called  (in a different comp) will return a copy of fishCollection in a new array. the state of the original data will not change.
 export const useFish = () => {
     return fishCollection.slice()
 }

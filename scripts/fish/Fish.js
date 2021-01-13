@@ -1,5 +1,5 @@
-// HMTL representation of each fish to be rendered 
-
+// Renders individual fish objects as HMTL , Fish function is exported and pass in fish object(1 parameter); when called it will return HTML for 1 single fish object
+// the return is a string containing HTML
 
 export const Fish = (fish) => {
     return `
