@@ -6,7 +6,7 @@ const fishCollection = [
         name: "Scar",
         species: "Butterfly Fish",
         location: "Coral reefs in the Atlantic, Indian and Pacific Oceans",
-        size: 9,
+        length: 9,
         diet: " Zooplankton, tiny motile crustaceans and mollusks, and types of soft and stony corals",
         image:"https://www.fishkeepingworld.com/wp-content/uploads/2018/12/Threadfin-Butterflyfish.jpg"
 
@@ -16,7 +16,7 @@ const fishCollection = [
         name: "Lilo",
         species: "Discus",
         location: "Amazon River",
-        size: 6,
+        length: 6,
         diet: "Algae flakes, tropical flakes, and shrimp pellets",
         image: "https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Discus.jpg"
 
@@ -26,7 +26,7 @@ const fishCollection = [
         name: "Stitch",
         species: "Flowerhorn Cichlid",
         location: "Singapore and Malaysia",
-        size: 11,
+        length: 11,
         diet: "Crickets, mealworms, and frozen shrimp",
         image: "https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Flowerhorn_Cichlid.jpg"
 
@@ -36,7 +36,7 @@ const fishCollection = [
         name: "Nyla",
         species: "Flowerhorn Cichlid",
         location: "Singapore and Malaysia",
-        size: 3,
+        length: 3,
         diet: "Crickets, mealworms, and frozen shrimp",
         image:"https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Flowerhorn_Cichlid.jpg"
 
