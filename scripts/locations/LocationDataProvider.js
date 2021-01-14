@@ -4,17 +4,17 @@ const locationCollection = [
 
 
     {
-        location: "Costa Rica",
+        name: "Costa Rica",
         image:"https://www.worldtravelguide.net/wp-content/uploads/2007/03/shu-costa-rica-445483960-1440x823.jpg"
     },
     
     {
-        location: "Amazon Delta River",
+        name: "Amazon Delta River",
         image:"/www.expeditions.com/globalassets/der-images/EX/EX71329/EX100213B.jpg"
     },
     
     {
-        location: "Singapore",
+        name: "Singapore",
         image:"https://pix10.agoda.net/geo/country/114/3_114_singapore_02.jpg?s=1920x"
     }
 ]

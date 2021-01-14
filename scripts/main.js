@@ -1,6 +1,7 @@
 import {useFish} from './fish/FishDataProvider.js'
 import { FishList } from './fish/FishList.js'
 import {useLocation} from './locations/LocationDataProvider.js'
+import { LocationList } from './locations/LocationList.js'
 // invokes the useFish function and stores the fish collection (new array) in the allTheFish variable
 const allTheFish = useFish()
 
@@ -19,3 +20,4 @@ for (const location of allTheLocations){
 }
 
 FishList ()
+LocationList ()
