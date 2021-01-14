@@ -57,4 +57,4 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
-console.log (fishCollection)
+// console.log (fishCollection)

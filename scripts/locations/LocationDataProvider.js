@@ -1,4 +1,4 @@
-// maintains the state of each location; Location data is an array of objects. Each object represents a single location.
+
 
 const locationCollection = [
 
@@ -24,4 +24,4 @@ const locationCollection = [
 export const useLocation = () => {
     return locationCollection.slice()
 }
-console.log("Locations",locationCollection)
+// console.log("Locations",locationCollection)
