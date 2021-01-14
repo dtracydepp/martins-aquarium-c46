@@ -15,7 +15,7 @@ export const LocationList = () => {
     }
 
 
-    console.log("LocationList", locationHTMLRepresentations)
+    // console.log("LocationList", locationHTMLRepresentations)
 
     contentElement.innerHTML += `
         <section class="locationCard">

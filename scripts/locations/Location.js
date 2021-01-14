@@ -1,4 +1,4 @@
-// / Renders individual location objects as HMTL , Locaiton function is exported and pass in location object(1 parameter); when called it will return HTML for 1 single location object
+// / Renders individual location objects as HMTL , Location function is exported and pass in location object(1 parameter); when called it will return HTML for 1 single location object
 // the return is a string containing HTML
 
 export const Location = (location) => {

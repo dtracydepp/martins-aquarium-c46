@@ -2,6 +2,8 @@ import {useFish} from './fish/FishDataProvider.js'
 import { FishList } from './fish/FishList.js'
 import {useLocation} from './locations/LocationDataProvider.js'
 import { LocationList } from './locations/LocationList.js'
+import {useTip} from './tips/TipDataProvider.js'
+import { TipList } from './tips/TipList.js'
 // invokes the useFish function and stores the fish collection (new array) in the allTheFish variable
 const allTheFish = useFish()
 
@@ -13,11 +15,18 @@ for (const fish of allTheFish) {
 }
 
 const allTheLocations = useLocation ()
-console.log("new array of locations",allTheLocations)
+// console.log("new array of locations",allTheLocations)
 
 for (const location of allTheLocations){
-    console.log("location object",location)
+    // console.log("location object",location)
+}
+
+const allTheTips = useTip()
+
+for (const tip of allTheTips){
+    // console.log("tip object", tip)
 }
 
 FishList ()
 LocationList ()
+TipList ()
