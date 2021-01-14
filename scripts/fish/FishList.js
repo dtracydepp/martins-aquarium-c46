@@ -17,7 +17,7 @@ const contentElement = document.querySelector(".containerLeft__fishList")
 
         fishHTMLRepresentations += Fish(fish)
     }
-console.log("FishList",fishHTMLRepresentations)
+// console.log("FishList",fishHTMLRepresentations)
     // Adds a section and renders all of the fish to the DOM
     contentElement.innerHTML += `
         <section class="fishList">
