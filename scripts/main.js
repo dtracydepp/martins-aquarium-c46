@@ -3,6 +3,7 @@ import { FishList } from './fish/FishList.js'
 import {useLocation} from './locations/LocationDataProvider.js'
 import { LocationList } from './locations/LocationList.js'
 import {useTip} from './tips/TipDataProvider.js'
+import { TipList } from './tips/TipList.js'
 // invokes the useFish function and stores the fish collection (new array) in the allTheFish variable
 const allTheFish = useFish()
 
@@ -24,3 +25,4 @@ const allTheTips = useTip()
 
 FishList ()
 LocationList ()
+TipList ()
