@@ -21,7 +21,7 @@ const contentElement = document.querySelector(".containerLeft__fishList")
     // Adds a section and renders all of the fish to the DOM
     contentElement.innerHTML += `
         <section class="fishList">
-        <h3>Fish Collection</h3>
+        <h2>Fish Collection</h2>
             ${fishHTMLRepresentations}
         </section>
         `
