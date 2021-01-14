@@ -23,6 +23,10 @@ for (const location of allTheLocations){
 
 const allTheTips = useTip()
 
+for (const tip of allTheTips){
+    // console.log("tip object", tip)
+}
+
 FishList ()
 LocationList ()
 TipList ()
