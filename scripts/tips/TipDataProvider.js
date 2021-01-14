@@ -14,4 +14,4 @@ const tipCollection = [
 export const useTip = () => {
     return tipCollection.slice()
 }
-console.log("Tips", tipCollection)
+// console.log("Tips", tipCollection)

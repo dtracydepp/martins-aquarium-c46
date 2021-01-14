@@ -22,13 +22,16 @@ h1{
 	text-align: center;
 	background-color: salmon;
 }
+
+
+
 .contentContainer{
 	display: flex;
 	justify-content: space-between;
 }
 
 
-.contentArticle {
+.containerLeft {
 	background-color: turquoise;
 	
 
@@ -44,7 +47,7 @@ blockquote {
 	display: block;
 	border-width: 2px 0;
 	border-style: solid;
-	border-color: #eee;
+	border-color: rgb(12, 12, 12);
 	padding: 1.5em 0 0.5em;
 	margin: 1.5em 0;
 	position: relative;
@@ -55,7 +58,7 @@ blockquote {
 	top: 0em;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background: #fff;
+	background: rgb(14, 13, 13);
 	width: 3rem;
 	height: 2rem;
 	font: 6em/1.08em 'PT Sans', sans-serif;
@@ -81,3 +84,20 @@ blockquote {
 	height: auto;
   }
 
+  .fishCard {
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 48%;
+  }
+
+  button {
+	background-color: turquoise;
+	border: none;
+	color: white;
+	padding: 15px 25x;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+  }

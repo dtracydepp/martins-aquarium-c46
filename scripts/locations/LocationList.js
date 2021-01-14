@@ -19,7 +19,7 @@ export const LocationList = () => {
 
     contentElement.innerHTML += `
         <section class="locationCard">
-        <h3>Places to See</h3>
+        <h2>Places to See</h2>
           ${locationHTMLRepresentations}
         </section
     `

@@ -16,7 +16,7 @@ const fishCollection = [
         name: "Lilo",
         species: "Discus",
         location: "Amazon River",
-        length: 6,
+        length: 5,
         diet: "Algae flakes, tropical flakes, and shrimp pellets",
         image: "https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Discus.jpg"
 
@@ -26,7 +26,7 @@ const fishCollection = [
         name: "Stitch",
         species: "Flowerhorn Cichlid",
         location: "Singapore and Malaysia",
-        length: 11,
+        length: 10,
         diet: "Crickets, mealworms, and frozen shrimp",
         image: "https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Flowerhorn_Cichlid.jpg"
 
@@ -36,7 +36,7 @@ const fishCollection = [
         name: "Nyla",
         species: "Flowerhorn Cichlid",
         location: "Singapore and Malaysia",
-        length: 3,
+        length: 11,
         diet: "Crickets, mealworms, and frozen shrimp",
         image:"https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Flowerhorn_Cichlid.jpg"
 
@@ -46,7 +46,7 @@ const fishCollection = [
         name: "Gank",
         species: "Discus",
         location: "Amazon River",
-        size: 16,
+        length: 16,
         diet: "Algae flakes, tropical flakes, and shrimp pellets",
         image: "https://www.fishkeepingworld.com/wp-content/uploads/2018/12/Threadfin-Butterflyfish.jpg"
 
@@ -58,3 +58,48 @@ export const useFish = () => {
     return fishCollection.slice()
 }
 // console.log (fishCollection)
+
+export const mostHolyFish = ()=> {
+
+    const holyFish = []
+
+    for (const fish of fishCollection) {
+  
+        if (fish.length % 3 === 0) {
+            holyFish.push(fish)
+        }
+    }
+    console.log("Holy Fish", holyFish)
+    return holyFish
+    
+}
+
+
+export const soilderFish = () => {
+
+    const soilders = []
+
+    for (const fish of fishCollection) {
+
+    if (fish.length % 5 === 0 && fish.length % 3 !==0) {
+        soilders.push(fish)
+    }
+}
+    console.log("Soilder Fish", soilders)
+    return soilders
+}
+
+
+export const nonHolyFish = () => {
+
+    const regularFish = []
+
+    for (const fish of fishCollection) {
+
+        if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
+            regularFish.push(fish)
+        }
+    }
+    console.log("Regular Fish", regularFish)
+    return regularFish
+}
